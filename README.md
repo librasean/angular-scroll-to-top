@@ -10,18 +10,26 @@ $ npm install angular-scroll-to-top
 -Include the src file
 For example:
 
-es2015
-src="node_modules/angular-scroll-to-top/scrollToTop.js"
-es6
+
+```html
+    <script src="node_modules/angular-scroll-to-top/scrollToTop.js">
+```
+
+<p><em>es6</em></p>
+```javascript
 import 'angular-scroll-to-top/scrollToTop';
+```
 
 -Then include the module into your angular app:
+
+```javascript
 angular.module('myApp',['scrollToTop']);
+```
 
 -And finally include the component somewhere in the app via HTML:
-{::nomarkdown}
+```html
 <scroll-to-top></scroll-to-top>
-{:/}
+```
 
 ###Implementation:
 
