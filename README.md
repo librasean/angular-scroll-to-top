@@ -7,11 +7,12 @@ No Dependency Scroll To Top Component for angular 1
 $ npm install angular-scroll-to-top
 ```
 
--Include the src file
+-Include the src and css file
 For example:
 
 
 ```html
+    <link rel="stylesheet" href="node_modules/angular-scroll-to-top/scroll.js" />
     <script src="node_modules/angular-scroll-to-top/scrollToTop.js">
 ```
 

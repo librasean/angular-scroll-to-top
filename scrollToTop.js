@@ -35,7 +35,14 @@ angular.module('scrollToTop',[])
             $scope.$apply();
         });
     },
-    templateUrl: 'scrollbutton.html',
+    template: `<div style="top: auto;right: 20px;bottom: 20px;left: auto;position: fixed !important;">
+<span
+    ng-if="!atTop()" 
+    ng-click="scrollToTop()"
+    class="chevron animated"
+    ng-class="fade">
+</span>
+</div>`,
     transclude: true
     }
 );
