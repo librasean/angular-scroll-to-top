@@ -1,0 +1,14 @@
+{
+  "name": "angtest",
+  "version": "1.0.0",
+  "description": "No dependencies angular scroll to top component for angular 1",
+  "main": "scrollToTop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanelson87@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.2"
+  }
+}
